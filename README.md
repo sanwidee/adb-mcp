@@ -1,4 +1,23 @@
-# adb-mcp
+# adb-mcp (sanwidee fork)
+
+> **This is a community fork of [mikechambers/adb-mcp](https://github.com/mikechambers/adb-mcp).**
+> All credit for the MCP server, Node proxy, and UXP plugin goes to
+> [Mike Chambers](https://github.com/mikechambers) (Adobe). The fork
+> simply adds a designer-friendly Mac launcher; the upstream is the
+> source of truth for the actual integration.
+>
+> **What this fork adds:**
+>
+> - [`launcher-mac/`](./launcher-mac/) — a one-shot Mac installer
+>   (`install_setup.sh`), a daily double-click launcher
+>   (`StartSession.command`), and an Indonesian-language setup guide
+>   (`Panduan Setup.pdf`) for non-technical design teams. Run the
+>   installer once, double-click the launcher every working day, done.
+>
+> Track upstream for the actual MCP/plugin work; track this fork only
+> for the launcher.
+
+---
 
 adb-mcp is a proof of concept project to enabled AI control of Adobe tools (Adobe Photoshop and Adobe Premiere) by providing an interface to LLMs via the MCP protocol.
 
